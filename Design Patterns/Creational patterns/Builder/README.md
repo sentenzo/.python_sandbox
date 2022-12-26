@@ -1,3 +1,7 @@
+<div align="center"> 
+
+![diagram](diagram.png) </div>
+
  Description
 It helps creating new objects of classes with way too many parameters of inner state.
 
