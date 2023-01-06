@@ -1,3 +1,9 @@
+<div align="center"> 
+
+![diagram](diagram.png) </div>
+
+## Description
+
 This is a creational design pattern.
 
 Let's assume we've got the `Item` abstract class (or maybe an interface) which represents some complex entity. It has several inheriting classes: `ParticularItem_1`, `ParticularItem_2`, `ParticularItem_3`, etc. 

@@ -1,3 +1,9 @@
+<div align="center"> 
+
+![diagram](diagram.png) </div>
+
+## Description
+
 Similar to factory method in many ways.
 
 There are several independent classes of items: `Item1`, `Item2`, `Item3`. Each of items also variate in several categories of sub-type: `Item1_Cat1`, `Item1_Cat2`, `Item1_Cat3`, `Item2_Cat1`, `Item2_Cat2`, etc.

@@ -1,3 +1,9 @@
+<div align="center"> 
+
+![diagram](diagram.png) </div>
+
+## Description
+
 Adapter makes two incompatible interfaces compatible.
 
 It wraps the new interface (`Service`) into a child-class (`Adapter`) of an old interface (`Client`). The mechanisms of adjustment and conversion are encapsulated inside the new child-class.

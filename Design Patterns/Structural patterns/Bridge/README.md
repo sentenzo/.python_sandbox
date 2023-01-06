@@ -1,3 +1,7 @@
+<div align="center"> 
+
+![diagram](diagram.png) </div>
+
 ## Description
 The Bridge separates **abstraction** and **implementation**.
 
