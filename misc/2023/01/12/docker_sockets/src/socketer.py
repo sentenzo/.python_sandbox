@@ -24,6 +24,7 @@ class Socketer:
         self._server_socket = Socketer._create_server_socket()
         self._server_host = CONFIG_GEN["server_host"]
         self._server_port = CONFIG_GEN.getint("server_port")
+        self._encoding = CONFIG_GEN["encoding"]
 
     def run(self):
         raise NotImplementedError
