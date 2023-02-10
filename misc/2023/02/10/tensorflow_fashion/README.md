@@ -1,0 +1,1 @@
+Inspired by [this online course](https://apps.openedu.ru/learning/course/course-v1:urfu+PYDNN+fall_2022/home).
