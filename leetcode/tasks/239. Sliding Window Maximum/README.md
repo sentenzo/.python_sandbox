@@ -1,4 +1,4 @@
-# Leetcode 239. Sliding Window Maximum
+# 239. Sliding Window Maximum
 
 
 [link to LeetCode](https://leetcode.com/problems/sliding-window-maximum/) (<span style="color:red">hard</span>)

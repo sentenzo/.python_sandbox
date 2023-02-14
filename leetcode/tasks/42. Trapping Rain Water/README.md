@@ -1,4 +1,4 @@
-# LeetCode 42. Trapping Rain Water
+# 42. Trapping Rain Water
 
 [link to LeetCode](https://leetcode.com/problems/trapping-rain-water/) (<span style="color:red">hard</span>)
 

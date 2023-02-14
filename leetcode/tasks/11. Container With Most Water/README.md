@@ -1,4 +1,4 @@
-# Leetcode 11. Container With Most Water
+# 11. Container With Most Water
 
 [link to LeetCode](https://leetcode.com/problems/container-with-most-water/) (<span style="color:orange">medium</span>)
 

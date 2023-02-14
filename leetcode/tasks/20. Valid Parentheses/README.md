@@ -1,4 +1,4 @@
-# Leetcode 20. Valid Parentheses
+# 20. Valid Parentheses
 
 
 [link to LeetCode](https://leetcode.com/problems/valid-parentheses/) (<span style="color:green">easy</span>)

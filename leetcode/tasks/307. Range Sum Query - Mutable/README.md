@@ -1,4 +1,4 @@
-# LeetCode 307. Range Sum Query - Mutable
+# 307. Range Sum Query - Mutable
 
 [link to LeetCode](https://leetcode.com/problems/range-sum-query-mutable/) (<span style="color:orange">medium</span>)
 

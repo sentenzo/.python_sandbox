@@ -1,4 +1,4 @@
-# LeetCode 206. Reverse Linked List
+# 206. Reverse Linked List
 
 [link to LeetCode](https://leetcode.com/problems/reverse-linked-list/ ) (<span style="color:green">easy</span>)
 

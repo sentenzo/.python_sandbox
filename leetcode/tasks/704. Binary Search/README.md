@@ -1,4 +1,4 @@
-# Leetcode 704. Binary Search
+# 704. Binary Search
 
 [link to LeetCode](https://leetcode.com/problems/binary-search/) (<span style="color:green">easy</span>)
 

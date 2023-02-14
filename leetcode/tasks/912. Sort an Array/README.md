@@ -1,4 +1,4 @@
-# LeetCode 912. Sort an Array
+# 912. Sort an Array
 
 [link to LeetCode](https://leetcode.com/problems/sort-an-array/) (<span style="color:orange">medium</span>)
 

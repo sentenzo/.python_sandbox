@@ -1,4 +1,4 @@
-# LeetCode 37. Sudoku Solver
+# 37. Sudoku Solver
 
 [link to LeetCode](https://leetcode.com/problems/sudoku-solver/) (<span style="color:red">hard</span>)
 
