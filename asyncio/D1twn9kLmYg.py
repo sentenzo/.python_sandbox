@@ -131,6 +131,38 @@ def main_try_context():
         print(f"acc={acc}")
 
 
+def main_conveyer():
+    """
+    sum(range(n*n)) = |nnn|
+    n - ?
+    """
+
+    def rng():
+        x = 0
+        while True:
+            yield x
+            x += 1
+
+    def get_digit_tuple(x: int):
+        return (int(d) for d in str(x))
+
+    def digit_tuples():
+        for x in rng():
+            yield get_digit_tuple(x)
+
+    def digit_sums():
+        for t in digit_tuples():
+            yield sum(t)
+
+    def is_repeated(x):
+        return len(set(str(x))) == 1
+
+    def ans_gen():
+        for x in digit_sums():
+            if is_repeated(x):
+                yield x
+
+
 if __name__ == "__main__":
     # all_tests()
     # main_say_hallo()
