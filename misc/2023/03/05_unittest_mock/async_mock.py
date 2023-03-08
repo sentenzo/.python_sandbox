@@ -8,6 +8,9 @@ async def some_func(x):
 
 mock_some_func = create_autospec(some_func, return_value=42)
 
-print(asyncio.run(some_func(12)))
-# print(mock_some_func(12))
-print(asyncio.run(mock_some_func(12)))
+coro = some_func(12)
+print(f"{type(some_func)}, {type(coro)}:", asyncio.run(coro))
+
+coro = mock_some_func(12)
+print(f"{type(mock_some_func)}, {type(coro)}:", asyncio.run(coro))
+
