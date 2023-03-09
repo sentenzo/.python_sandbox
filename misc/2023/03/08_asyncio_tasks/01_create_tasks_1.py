@@ -5,8 +5,9 @@ Create multiple tasks manually. This is not a recommended approach.
 import random
 import asyncio
 
-async def runner(name):
+async def runner():
     """prints "1\n2\n3\n" to stdout"""
+    name = asyncio.current_task().get_name()
     for i in range(3):
         try:
             await asyncio.sleep(random.random()/10)
@@ -38,9 +39,11 @@ async def main():
 
     for i in range(10):
         name = f"runner {i}"
-        task = asyncio.create_task(runner(name), name=name)
+        task = asyncio.create_task(runner(), name=name)
         todo.add(task)
         task.add_done_callback(on_done_callback)
+    
+
 
     while todo:
         if random.random() < 0.1:
