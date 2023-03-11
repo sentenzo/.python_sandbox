@@ -10,6 +10,12 @@ async def runner(name):
 
 async def main():
     runners = [runner(f"runner {i}") for i in range(10)]
-    await asyncio.gather(*runners)
+    group = asyncio.gather(*runners)
+    # await group
+    print(group)
+    while not group.done():
+        await asyncio.sleep(0.2)
+    print(group)
+    print(group.result())
 
 asyncio.run(main())
