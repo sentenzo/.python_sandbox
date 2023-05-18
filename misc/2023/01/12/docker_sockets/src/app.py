@@ -11,6 +11,7 @@ if __name__ == "__main__":
         "--type",
         default="client",
     )
+
     args = parser.parse_args()
     app: Socketer | None = None
     if args.type == "client":

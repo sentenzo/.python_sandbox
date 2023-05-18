@@ -11,6 +11,7 @@ CONFIG_CLI = CONFIG["Client"]
 
 
 class Socketer:
+
     @staticmethod
     def _create_server_socket() -> socket:
         l3_protocol_str = CONFIG_GEN["L3_protocol"]

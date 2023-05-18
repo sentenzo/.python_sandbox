@@ -7,6 +7,7 @@ from socketer import CONFIG_GEN
 
 
 class Message:
+
     def __init__(self, sender_name: str, data: list[int]) -> None:
         self.sender_name = sender_name
         self.data = data

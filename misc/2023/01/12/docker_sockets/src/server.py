@@ -2,6 +2,7 @@ from socketer import Socketer, CONFIG_SVR
 
 
 class Server(Socketer):
+
     def __init__(self):
         super().__init__()
         self._server_socket.bind(("localhost", self._server_port))

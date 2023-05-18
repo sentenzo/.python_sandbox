@@ -7,11 +7,19 @@ from message import Message
 
 
 class Client(Socketer):
+
     def __init__(self):
         super().__init__()
         self._name = f"client-{hex(randint(0x100000, 0xffffff))[2:]}"
         self._buf_size = CONFIG_CLI.getint("buf_size")
-        self._arr_size_max = CONFIG_CLI.getint("arr_size_max")
+        self._arr_size_max = CONFIG_CLI.getint('arr_size_max')
+        a = [
+            1,
+            2,
+            3,
+            3,
+            3,
+        ]
         self._abs_val_limit = CONFIG_CLI.getint("abs_val_limit")
 
     def _try_connect_forever(self):
